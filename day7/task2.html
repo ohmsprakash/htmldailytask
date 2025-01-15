@@ -4,22 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: large;
+            font-weight: 800;
+        }
+        li{
+            list-style: none;
+        }
+    </style>
 </head>
 <body>
     <header>
-     <h1>Website</h1>
+     <!-- <h1>Website</h1> -->
     </header>
     <navbar>
     <ul>
-       <li>Home</li>
-       <li>Products</li>
-       <li>About</li>
-       <li>Contact</li>
+       <li><a href="#home">Home</a></li>
+       <li><a href='#menu'>Menu</a></li>
+       <li><a href="#about-us">About Us</a></li>
+       <li><a href="#services">Services</a></li>
+       <li><a href="#offers">Special Offers</a></li>
+       <li><a href="#contact-us">Contact Us</a></li>
     </ul>
     </navbar>
-    <main>
+    <main id="home">
         <h1>Welcome to Our Website</h1>
         <p>We are excited to have you here. Explore our site to learn more about us and what we offer.</p>
+        <p>Welcome to Gourmet Haven, a culinary sanctuary where flavors come to life. Nestled in the heart of the city, we offer an exquisite dining experience that combines fine dining with the comfort of home. From our world-class chefs to our warm, inviting ambiance, every detail is curated to delight your senses.</p>
+        <p>Whether you're here for a romantic dinner, a casual brunch, or a special celebration, Gourmet Haven is your destination for unforgettable moments.</p> 
     </main>
+    <div id="menu">
+        <h2>Menu</h2>
+        Our menu is a celebration of global cuisines crafted with the finest ingredients. Here’s a sneak peek:
+
+            <h3>Appetizers</h3>
+            <p>Bruschetta Trio: A medley of classic, pesto, and sundried tomato toppings.</p>
+            <p>Lobster Bisque: Rich and creamy with a hint of sherry.</p>
+            <h3>Main Courses</h3>
+            <p>Filet Mignon: Grilled to perfection with truffle butter and garlic mashed potatoes.</p>
+            <p> Seafood Paella: A Spanish classic with saffron-infused rice, mussels, shrimp, and squid</p>
+            <h3>Vegetarian Delights</h3>
+            <p> Stuffed Bell Peppers: Filled with quinoa, black beans, and a tangy tomato sauce.</p>
+            <p>Mushroom Risotto: Creamy Arborio rice with wild mushrooms and Parmesan.</p>
+            <h3>Desserts</h3>
+            <p>Molten Chocolate Cake: Warm, gooey, and served with vanilla ice cream.</p>
+            <p>Crème Brûlée: Silky custard with a caramelized sugar crust.</p>
+            <h3>Beverages</h3>
+            <p>Signature cocktails like the Elderflower Martini and Citrus Smash.</p>
+            <p>A curated wine list featuring options from Italy, France, and California.</p>
+            
+    </div>
+    <div id="about-us">
+        <h2>About Us</h2>
+        <p>At Gourmet Haven, food is our passion, and hospitality is our art. Since opening our doors in 2010, we have been dedicated to creating a space where guests can escape the everyday and indulge in extraordinary cuisine.</p>
+        <p>Our executive chef, James Whitman, brings over 20 years of experience to the table, blending classic techniques with modern innovation. Our dishes are inspired by seasonal ingredients and local farmers, ensuring every bite is fresh and flavorful.</p>
+        <p>We pride ourselves on our commitment to sustainability, using eco-friendly practices and partnering with ethical suppliers to bring you food that’s as kind to the planet as it is to your palate.</p>
+    </div>
+    <div id="services">
+        <h2>Services</h2>
+        <p>We offer a variety of services to meet your needs:</p>
+        <p>Dine-In Experience: Enjoy a cozy ambiance with impeccable service.</p>
+        <p>Takeout and Delivery: Savor our dishes in the comfort of your home.</p>
+        <p> Catering Services: Perfect for weddings, corporate events, and private parties.</p>
+        <p>Private Dining: Reserve our exclusive dining room for your special occasions.</p>
+    </div>
+    <div id="offers">
+        <h2>special Offers</h2>
+            <p>Happy Hour: Monday to Friday, 4 PM to 6 PM – Discounts on cocktails and appetizers.</p>
+            <p>Seasonal Menu: Explore limited-time dishes inspired by the current season.</p>
+            <p>Loyalty Program: Earn points for every dollar spent and redeem rewards on future visits.</p>
+    </div>
+    <div id="contact-us">
+        <h2>Contact Us</h2>
+        <address>
+            Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+    </div>
 </body>
 </html>
